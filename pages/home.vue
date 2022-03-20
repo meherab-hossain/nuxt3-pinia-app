@@ -1,23 +1,19 @@
 <template>
-  <NuxtLayout name="custom">
-     hello
-  </NuxtLayout>
+    <div>
+
+    </div>
 </template>
 
 <script>
-import { reactive, toRefs } from "vue";
-
 export default {
-  setup() {
-    const state = reactive({
-      count: 0,
-    });
+    setup () {
+        
 
-    return {
-      ...toRefs(state),
-    };
-  },
-};
+        return {}
+    }
+}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
